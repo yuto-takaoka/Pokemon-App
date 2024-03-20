@@ -14,6 +14,7 @@
 		418CA7BC2BA4275300B3A472 /* LazyGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA7BB2BA4275300B3A472 /* LazyGridView.swift */; };
 		418CA7BE2BA4292A00B3A472 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA7BD2BA4292A00B3A472 /* ListView.swift */; };
 		418CA7C42BA4420300B3A472 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418CA7C32BA4420300B3A472 /* DetailView.swift */; };
+		41E928842BA7C6C600E97E31 /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E928832BA7C6C600E97E31 /* PokemonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		418CA7BB2BA4275300B3A472 /* LazyGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridView.swift; sourceTree = "<group>"; };
 		418CA7BD2BA4292A00B3A472 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		418CA7C32BA4420300B3A472 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		41E928832BA7C6C600E97E31 /* PokemonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				418CA7AD2BA41A1700B3A472 /* Pokemon_AppApp.swift */,
-				418CA7AF2BA41A1700B3A472 /* ContentView.swift */,
-				418CA7BB2BA4275300B3A472 /* LazyGridView.swift */,
-				418CA7BD2BA4292A00B3A472 /* ListView.swift */,
-				418CA7C32BA4420300B3A472 /* DetailView.swift */,
+				41E9288D2BA9225200E97E31 /* View */,
+				41E928832BA7C6C600E97E31 /* PokemonData.swift */,
 				418CA7B12BA41A1800B3A472 /* Assets.xcassets */,
 				418CA7B32BA41A1800B3A472 /* Preview Content */,
 			);
@@ -74,6 +74,17 @@
 				418CA7B42BA41A1800B3A472 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41E9288D2BA9225200E97E31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				418CA7AF2BA41A1700B3A472 /* ContentView.swift */,
+				418CA7BB2BA4275300B3A472 /* LazyGridView.swift */,
+				418CA7BD2BA4292A00B3A472 /* ListView.swift */,
+				418CA7C32BA4420300B3A472 /* DetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				418CA7BE2BA4292A00B3A472 /* ListView.swift in Sources */,
+				41E928842BA7C6C600E97E31 /* PokemonData.swift in Sources */,
 				418CA7B02BA41A1700B3A472 /* ContentView.swift in Sources */,
 				418CA7AE2BA41A1700B3A472 /* Pokemon_AppApp.swift in Sources */,
 				418CA7C42BA4420300B3A472 /* DetailView.swift in Sources */,
@@ -290,8 +302,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,8 +331,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

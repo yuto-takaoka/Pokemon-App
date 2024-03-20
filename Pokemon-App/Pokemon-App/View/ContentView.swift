@@ -33,14 +33,6 @@ struct ContentView: View {
     }
 }
 
-struct MonsterBall: View {
-    var body: some View {
-        Circle()
-            .fill(.red)
-            .frame(width: 200, height: 200)
-    }
-}
-
 #Preview {
     ContentView()
 }
